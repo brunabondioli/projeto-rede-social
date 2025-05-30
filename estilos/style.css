@@ -29,9 +29,21 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* O container de fora (main) com 'position='relative' mais o container de dentro 'section#telefone' com as quatro linhas de configuração acima, faz com que a imagem do celular fique sempre no centro da tela, independentemente do tamanho da mesma.*/
+    /* 
+    O container de fora (main) com 'position='relative' mais o container de dentro 'section#telefone' com as quatro linhas de configuração acima, faz com que a imagem do celular fique sempre no centro da tela, independentemente do tamanho da mesma.
+    Rever aula de posicionamento de imagens.
+    */
 
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+    
 }
